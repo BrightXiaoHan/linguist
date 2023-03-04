@@ -1,6 +1,6 @@
 {
 	"ext_name": {
-		"message": "Linguist - web page translator"
+		"message": "LanMT - web page translator"
 	},
 	"ext_description": {
 		"message": "Text translation without page reloading"

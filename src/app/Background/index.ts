@@ -5,6 +5,7 @@ import { GoogleTranslator } from '@translate-tools/core/translators/GoogleTransl
 import { YandexTranslator } from '@translate-tools/core/translators/YandexTranslator';
 import { BingTranslatorPublic } from '@translate-tools/core/translators/unstable/BingTranslatorPublic';
 import { TranslatorClass } from '@translate-tools/core/types/Translator';
+import { LanMTTranslator } from './LanmtTranslator';
 
 import { AppConfigType } from '../../types/runtime';
 import { createSelector } from '../../lib/effector/createSelector';
@@ -23,6 +24,7 @@ export const embeddedTranslators = {
 	YandexTranslator,
 	GoogleTranslator,
 	BingTranslatorPublic,
+	LanMTTranslator,
 } as const;
 
 /**

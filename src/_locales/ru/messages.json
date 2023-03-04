@@ -1,6 +1,6 @@
 {
 	"ext_name": {
-		"message": "Linguist — переводчик страниц"
+		"message": "LanMT — переводчик страниц"
 	},
 	"ext_description": {
 		"message": "Перевод текста без перезагрузки страниц"
